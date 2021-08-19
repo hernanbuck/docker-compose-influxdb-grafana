@@ -6,6 +6,6 @@ datasources:
     database: telegraf
     user: admin
     password: admin
-    url: http://localhost:8086
+    url: http://influxdb:8086
     isDefault: true
     editable: true
