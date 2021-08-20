@@ -15,6 +15,7 @@ echo "==> Enable Docker Service"
 systemctl enable docker
 
 echo "==> Install Telegraf"
+wget https://dl.influxdata.com/telegraf/releases/telegraf_1.19.3-1_amd64.deb
 sudo dpkg -i telegraf_1.19.3-1_amd64.deb
 
 echo "==> Dejo corriendo envio de datos en 2do plano"
